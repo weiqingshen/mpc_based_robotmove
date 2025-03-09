@@ -1,0 +1,195 @@
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_circle[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_circle_trajectory[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_storage[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_processing[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_second_storage_trajectory[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_total_trajectory[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_processing_trajectory[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_node[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_total_trajectory_final[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_total_trajectory_second_final[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_total_trajectory_second[0m
+[35m[1mConsolidate compiler generated dependencies of target execute[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_execute_storage_trajectory[0m
+[  2%] Built target trajectory_buffer_node
+[  5%] Built target end_effector_feedback
+[  8%] Built target set_target_pose
+[ 10%] Built target move_group_interface
+[ 16%] [32mBuilding CXX object CMakeFiles/arm_execute_node.dir/src/arm_control.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/arm_execute_storage.dir/src/arm_control.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/arm_execute_circle.dir/src/arm_control.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/arm_execute_processing.dir/src/arm_control.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory.dir/src/arm_control.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_final.dir/src/arm_control.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second_final.dir/src/arm_control.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/arm_execute_second_storage_trajectory.dir/src/arm_control.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/arm_execute_circle_trajectory.dir/src/arm_control.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/execute.dir/src/arm_control.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/arm_execute_processing_trajectory.dir/src/arm_control.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second.dir/src/arm_control.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/arm_execute_storage_trajectory.dir/src/arm_control.cpp.o[0m
+[ 31%] [32m[1mLinking CXX executable arm_execute_processing_trajectory[0m
+[ 31%] [32m[1mLinking CXX executable arm_execute_total_trajectory_final[0m
+[ 32%] [32m[1mLinking CXX executable arm_execute_second_storage_trajectory[0m
+[ 35%] [32m[1mLinking CXX executable arm_execute_total_trajectory_second_final[0m
+[ 35%] [32m[1mLinking CXX executable arm_execute_total_trajectory[0m
+[ 36%] [32m[1mLinking CXX executable arm_execute_total_trajectory_second[0m
+[ 38%] [32m[1mLinking CXX executable arm_execute_circle_trajectory[0m
+[ 41%] [32m[1mLinking CXX executable arm_execute_storage_trajectory[0m
+[ 41%] [32m[1mLinking CXX executable arm_execute_processing[0m
+[ 42%] [32m[1mLinking CXX executable arm_execute_storage[0m
+[ 45%] [32m[1mLinking CXX executable arm_execute_circle[0m
+[ 45%] [32m[1mLinking CXX executable arm_execute_node[0m
+[ 46%] [32m[1mLinking CXX executable execute[0m
+[ 50%] Built target arm_execute_total_trajectory_final
+[ 54%] Built target arm_execute_total_trajectory_second
+[ 58%] Built target arm_execute_total_trajectory_second_final
+[ 67%] Built target arm_execute_second_storage_trajectory
+[ 67%] Built target arm_execute_circle
+[ 71%] Built target arm_execute_circle_trajectory
+[ 75%] Built target arm_execute_processing_trajectory
+[ 79%] Built target arm_execute_node
+[ 83%] Built target execute
+[ 87%] Built target arm_execute_storage
+[ 91%] Built target arm_execute_processing
+[ 95%] Built target arm_execute_total_trajectory
+[100%] Built target arm_execute_storage_trajectory
+-- Install configuration: ""
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/lib/mybot/move_group_interface
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/lib/mybot/end_effector_feedback
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/execute
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/execute" to ""
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/lib/mybot/set_target_pose
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_node
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_node" to ""
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/lib/mybot/trajectory_buffer_node
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_storage
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_storage" to ""
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_processing
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_processing" to ""
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_storage_trajectory
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_storage_trajectory" to ""
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_second_storage_trajectory
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_second_storage_trajectory" to ""
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_processing_trajectory
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_processing_trajectory" to ""
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_final
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_final" to ""
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_second
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_second" to ""
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_second_final
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_second_final" to ""
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory" to ""
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_circle_trajectory
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_circle_trajectory" to ""
+-- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_circle
+-- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_circle" to ""
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_storage.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_second_final_226备份.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_second.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/trajectory_buffer_2_28大改前.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_control_2_17.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/Communication.h
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_final_改动大小前226.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_control(修改相对路径前).cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/log
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/log/latest
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/log/latest_list
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/log/list_2024-08-30_14-37-32
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_second_storage_trajectory.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/trajectory_buffer_2.27号大改前.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/Trajectory.hpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_processing.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/Trajectory.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/execute.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_storage_trajectory.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/end_effector_feedback.cpp
+-- Installing: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_control.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/end_effector_feedback 成功.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_second_final.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/TrajectoryInterpolator.hpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/Communication.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_circle_trajectory.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_final_2_27有轨迹.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_processing_trajectory.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_storage(从地上抓起来放到车上).cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/move_group_interface.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/TrajectoryInterpolator.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/trajectory_buffer_gpt.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_final.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_调试用副本.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/.vscode
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_control修改相对路径前.h
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_control.h
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/trajectory_subscriber_node.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_circle(原来的版本).cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/set_target_pose.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_second_final_备份.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_circle.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/trajectory_buffer.cpp
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle12.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/robot_arm_description.urdf.xacro
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing21.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/trajectory_5.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/planned_trajectory.txt
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/kinematics.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/robot_arm_description.srdf
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing32.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/initial_positions.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle31.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/planned_trajectory（复件）.txt
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/default_trajectory.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/trajectory_3.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/param_1.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/joint_limits.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle21.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing31.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/trajectory_4.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/param.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/moveit.rviz
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle32.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/gazebo_arm_description.urdf.xacro
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/moveit_controllers.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/planned_trajectory（另一个复件）.txt
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing22.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing12.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing11.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle22.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/robot_arm_description.ros2_control.xacro
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/ros2_controllers.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle11.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/my_moveit_rviz.launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/setup_assistant.launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/static_virtual_joint_tfs.launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/moveit_rviz.launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/warehouse_db.launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/move_group.launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/move_group_interface.launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/rsp.launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/gazebo.launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/spawn_controllers.launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/trajectory_subscriber_launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/demo.launch.py
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/.setup_assistant
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/ament_index/resource_index/package_run_dependencies/mybot
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/ament_index/resource_index/parent_prefix_path/mybot
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/environment/path.sh
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/environment/path.dsv
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/local_setup.bash
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/local_setup.sh
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/local_setup.zsh
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/local_setup.dsv
+-- Installing: /home/fins/myrobot_final/install/mybot/share/mybot/package.dsv
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/ament_index/resource_index/packages/mybot
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/cmake/mybotConfig.cmake
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/cmake/mybotConfig-version.cmake
+-- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/package.xml

@@ -1,0 +1,207 @@
+trajectories:
+  - name: "circle21"
+    points:
+      - name: "point_1"
+        time_from_start: [0, 10000000]
+        joint_positions: [-0.179, -0.195, -0.020, 0.001, -0.216, -1.743]
+      - name: "point_2"
+        time_from_start: [0, 20000000]
+        joint_positions: [-0.183, -0.195, -0.020, 0.001, -0.216, -1.737]
+      - name: "point_3"
+        time_from_start: [0, 30000000]
+        joint_positions: [-0.190, -0.195, -0.019, 0.001, -0.215, -1.726]
+      - name: "point_4"
+        time_from_start: [0, 40000000]
+        joint_positions: [-0.205, -0.195, -0.018, 0.001, -0.215, -1.704]
+      - name: "point_5"
+        time_from_start: [0, 50000000]
+        joint_positions: [-0.218, -0.196, -0.017, 0.001, -0.214, -1.684]
+      - name: "point_6"
+        time_from_start: [0, 60000000]
+        joint_positions: [-0.233, -0.196, -0.016, 0.001, -0.213, -1.663]
+      - name: "point_7"
+        time_from_start: [0, 70000000]
+        joint_positions: [-0.260, -0.196, -0.015, 0.001, -0.212, -1.623]
+      - name: "point_8"
+        time_from_start: [0, 80000000]
+        joint_positions: [-0.286, -0.197, -0.013, 0.001, -0.211, -1.585]
+      - name: "point_9"
+        time_from_start: [0, 90000000]
+        joint_positions: [-0.306, -0.197, -0.012, 0.001, -0.209, -1.555]
+      - name: "point_10"
+        time_from_start: [0, 100000000]
+        joint_positions: [-0.343, -0.198, -0.009, 0.001, -0.208, -1.502]
+      - name: "point_11"
+        time_from_start: [0, 110000000]
+        joint_positions: [-0.384, -0.198, -0.007, 0.001, -0.206, -1.440]
+      - name: "point_12"
+        time_from_start: [0, 120000000]
+        joint_positions: [-0.412, -0.199, -0.005, 0.000, -0.204, -1.399]
+      - name: "point_13"
+        time_from_start: [0, 130000000]
+        joint_positions: [-0.453, -0.199, -0.002, 0.000, -0.202, -1.340]
+      - name: "point_14"
+        time_from_start: [0, 140000000]
+        joint_positions: [-0.511, -0.200, 0.002, 0.000, -0.199, -1.254]
+      - name: "point_15"
+        time_from_start: [0, 150000000]
+        joint_positions: [-0.550, -0.201, 0.004, 0.000, -0.197, -1.197]
+      - name: "point_16"
+        time_from_start: [0, 160000000]
+        joint_positions: [-0.589, -0.201, 0.007, 0.000, -0.195, -1.139]
+      - name: "point_17"
+        time_from_start: [0, 170000000]
+        joint_positions: [-0.650, -0.202, 0.011, 0.000, -0.192, -1.049]
+      - name: "point_18"
+        time_from_start: [0, 180000000]
+        joint_positions: [-0.697, -0.203, 0.014, 0.000, -0.190, -0.979]
+      - name: "point_19"
+        time_from_start: [0, 190000000]
+        joint_positions: [-0.732, -0.204, 0.016, 0.000, -0.188, -0.928]
+      - name: "point_20"
+        time_from_start: [0, 200000000]
+        joint_positions: [-0.788, -0.204, 0.019, 0.000, -0.185, -0.847]
+      - name: "point_21"
+        time_from_start: [0, 210000000]
+        joint_positions: [-0.843, -0.205, 0.023, 0.000, -0.183, -0.765]
+      - name: "point_22"
+        time_from_start: [0, 220000000]
+        joint_positions: [-0.878, -0.206, 0.025, 0.000, -0.181, -0.714]
+      - name: "point_23"
+        time_from_start: [0, 230000000]
+        joint_positions: [-0.925, -0.207, 0.028, 0.000, -0.179, -0.645]
+      - name: "point_24"
+        time_from_start: [0, 240000000]
+        joint_positions: [-0.986, -0.207, 0.032, 0.000, -0.175, -0.555]
+      - name: "point_25"
+        time_from_start: [0, 250000000]
+        joint_positions: [-1.025, -0.208, 0.035, 0.000, -0.174, -0.497]
+      - name: "point_26"
+        time_from_start: [0, 260000000]
+        joint_positions: [-1.065, -0.209, 0.037, 0.000, -0.172, -0.439]
+      - name: "point_27"
+        time_from_start: [0, 270000000]
+        joint_positions: [-1.126, -0.210, 0.041, 0.000, -0.169, -0.349]
+      - name: "point_28"
+        time_from_start: [0, 280000000]
+        joint_positions: [-1.173, -0.210, 0.044, 0.000, -0.166, -0.279]
+      - name: "point_29"
+        time_from_start: [0, 290000000]
+        joint_positions: [-1.208, -0.211, 0.047, 0.000, -0.164, -0.228]
+      - name: "point_30"
+        time_from_start: [0, 300000000]
+        joint_positions: [-1.263, -0.212, 0.050, 0.000, -0.162, -0.147]
+      - name: "point_31"
+        time_from_start: [0, 310000000]
+        joint_positions: [-1.319, -0.213, 0.054, 0.000, -0.159, -0.065]
+      - name: "point_32"
+        time_from_start: [0, 320000000]
+        joint_positions: [-1.354, -0.213, 0.056, 0.000, -0.157, -0.014]
+      - name: "point_33"
+        time_from_start: [0, 330000000]
+        joint_positions: [-1.400, -0.214, 0.059, 0.000, -0.155, 0.056]
+      - name: "point_34"
+        time_from_start: [0, 340000000]
+        joint_positions: [-1.462, -0.215, 0.063, 0.000, -0.152, 0.145]
+      - name: "point_35"
+        time_from_start: [0, 350000000]
+        joint_positions: [-1.501, -0.215, 0.066, 0.000, -0.150, 0.204]
+      - name: "point_36"
+        time_from_start: [0, 360000000]
+        joint_positions: [-1.540, -0.216, 0.068, 0.000, -0.148, 0.261]
+      - name: "point_37"
+        time_from_start: [0, 370000000]
+        joint_positions: [-1.601, -0.217, 0.072, 0.000, -0.145, 0.351]
+      - name: "point_38"
+        time_from_start: [0, 380000000]
+        joint_positions: [-1.649, -0.218, 0.075, 0.000, -0.142, 0.421]
+      - name: "point_39"
+        time_from_start: [0, 390000000]
+        joint_positions: [-1.683, -0.218, 0.077, 0.000, -0.141, 0.471]
+      - name: "point_40"
+        time_from_start: [0, 400000000]
+        joint_positions: [-1.739, -0.219, 0.081, -0.000, -0.138, 0.553]
+      - name: "point_41"
+        time_from_start: [0, 410000000]
+        joint_positions: [-1.794, -0.220, 0.085, -0.000, -0.135, 0.635]
+      - name: "point_42"
+        time_from_start: [0, 420000000]
+        joint_positions: [-1.829, -0.220, 0.087, -0.000, -0.133, 0.686]
+      - name: "point_43"
+        time_from_start: [0, 430000000]
+        joint_positions: [-1.876, -0.221, 0.090, -0.000, -0.131, 0.756]
+      - name: "point_44"
+        time_from_start: [0, 440000000]
+        joint_positions: [-1.937, -0.222, 0.094, -0.000, -0.128, 0.846]
+      - name: "point_45"
+        time_from_start: [0, 450000000]
+        joint_positions: [-1.977, -0.223, 0.096, -0.000, -0.126, 0.904]
+      - name: "point_46"
+        time_from_start: [0, 460000000]
+        joint_positions: [-2.016, -0.223, 0.099, -0.000, -0.124, 0.961]
+      - name: "point_47"
+        time_from_start: [0, 470000000]
+        joint_positions: [-2.077, -0.224, 0.103, -0.000, -0.121, 1.051]
+      - name: "point_48"
+        time_from_start: [0, 480000000]
+        joint_positions: [-2.124, -0.225, 0.106, -0.000, -0.119, 1.121]
+      - name: "point_49"
+        time_from_start: [0, 490000000]
+        joint_positions: [-2.159, -0.226, 0.108, -0.000, -0.117, 1.172]
+      - name: "point_50"
+        time_from_start: [0, 500000000]
+        joint_positions: [-2.214, -0.226, 0.112, -0.000, -0.114, 1.253]
+      - name: "point_51"
+        time_from_start: [0, 510000000]
+        joint_positions: [-2.270, -0.227, 0.115, -0.000, -0.111, 1.335]
+      - name: "point_52"
+        time_from_start: [0, 520000000]
+        joint_positions: [-2.305, -0.228, 0.118, -0.000, -0.110, 1.386]
+      - name: "point_53"
+        time_from_start: [0, 530000000]
+        joint_positions: [-2.352, -0.229, 0.121, -0.000, -0.107, 1.455]
+      - name: "point_54"
+        time_from_start: [0, 540000000]
+        joint_positions: [-2.412, -0.229, 0.125, -0.000, -0.104, 1.544]
+      - name: "point_55"
+        time_from_start: [0, 550000000]
+        joint_positions: [-2.447, -0.230, 0.127, -0.000, -0.102, 1.597]
+      - name: "point_56"
+        time_from_start: [0, 560000000]
+        joint_positions: [-2.482, -0.231, 0.129, -0.000, -0.101, 1.647]
+      - name: "point_57"
+        time_from_start: [0, 570000000]
+        joint_positions: [-2.530, -0.231, 0.132, -0.000, -0.098, 1.718]
+      - name: "point_58"
+        time_from_start: [0, 580000000]
+        joint_positions: [-2.563, -0.232, 0.134, -0.000, -0.097, 1.766]
+      - name: "point_59"
+        time_from_start: [0, 590000000]
+        joint_positions: [-2.586, -0.232, 0.136, -0.000, -0.096, 1.800]
+      - name: "point_60"
+        time_from_start: [0, 600000000]
+        joint_positions: [-2.618, -0.233, 0.138, -0.000, -0.094, 1.848]
+      - name: "point_61"
+        time_from_start: [0, 610000000]
+        joint_positions: [-2.646, -0.233, 0.140, -0.000, -0.093, 1.888]
+      - name: "point_62"
+        time_from_start: [0, 620000000]
+        joint_positions: [-2.660, -0.233, 0.141, -0.000, -0.092, 1.910]
+      - name: "point_63"
+        time_from_start: [0, 630000000]
+        joint_positions: [-2.679, -0.234, 0.142, -0.000, -0.091, 1.937]
+      - name: "point_64"
+        time_from_start: [0, 640000000]
+        joint_positions: [-2.696, -0.234, 0.143, -0.000, -0.090, 1.963]
+      - name: "point_65"
+        time_from_start: [0, 650000000]
+        joint_positions: [-2.705, -0.234, 0.144, -0.000, -0.090, 1.975]
+      - name: "point_66"
+        time_from_start: [0, 660000000]
+        joint_positions: [-2.711, -0.234, 0.144, -0.000, -0.089, 1.985]
+      - name: "point_67"
+        time_from_start: [0, 670000000]
+        joint_positions: [-2.717, -0.234, 0.144, -0.000, -0.089, 1.993]
+      - name: "point_68"
+        time_from_start: [0, 680000000]
+        joint_positions: [-2.718, -0.234, 0.144, -0.000, -0.089, 1.994]

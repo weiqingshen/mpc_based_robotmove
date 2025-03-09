@@ -1,0 +1,172 @@
+[0.105s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.105s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7601bc30e800>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7601bc4ca530>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7601bc4ca530>>)
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.139s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/fins/myrobot_final'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mybot' with type 'ros.ament_cmake' and name 'mybot'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_description) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_arm_description' with type 'ros.ament_python' and name 'robot_arm_description'
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.178s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/fins/myrobot_final/install
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/fins/Workspace/moveit2_ws/install
+[0.181s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 379 installed packages in /opt/ros/humble
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'robot_arm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fins/myrobot_final/build/robot_arm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fins/myrobot_final/install/robot_arm_description', 'merge_install': False, 'path': '/home/fins/myrobot_final/src/robot_arm_description', 'symlink_install': False, 'test_result_base': None}
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_target' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_clean_first' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'cmake_force_configure' from command line to 'False'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'ament_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.216s] Level 5:colcon.colcon_core.verb:set package 'mybot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.216s] DEBUG:colcon.colcon_core.verb:Building package 'mybot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/fins/myrobot_final/build/mybot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/fins/myrobot_final/install/mybot', 'merge_install': False, 'path': '/home/fins/myrobot_final/src/mybot', 'symlink_install': False, 'test_result_base': None}
+[0.216s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.217s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.217s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/fins/myrobot_final/src/robot_arm_description' with build type 'ament_python'
+[0.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_description', 'ament_prefix_path')
+[0.220s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/hook/ament_prefix_path.ps1'
+[0.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/hook/ament_prefix_path.dsv'
+[0.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/hook/ament_prefix_path.sh'
+[0.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.222s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.354s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/fins/myrobot_final/src/robot_arm_description'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fins/myrobot_final/src/robot_arm_description': PYTHONPATH=/home/fins/myrobot_final/build/robot_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fins/myrobot_final/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_description build --build-base /home/fins/myrobot_final/build/robot_arm_description/build install --record /home/fins/myrobot_final/build/robot_arm_description/install.log --single-version-externally-managed install_data
+[1.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fins/myrobot_final/src/robot_arm_description' returned '0': PYTHONPATH=/home/fins/myrobot_final/build/robot_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fins/myrobot_final/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_description build --build-base /home/fins/myrobot_final/build/robot_arm_description/build install --record /home/fins/myrobot_final/build/robot_arm_description/install.log --single-version-externally-managed install_data
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/robot_arm_description' for CMake module files
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/robot_arm_description' for CMake config files
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/robot_arm_description/lib'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/robot_arm_description/bin'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/robot_arm_description/lib/pkgconfig/robot_arm_description.pc'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/robot_arm_description/lib/python3.10/site-packages'
+[1.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_description', 'pythonpath')
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/hook/pythonpath.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/hook/pythonpath.dsv'
+[1.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/hook/pythonpath.sh'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/robot_arm_description/bin'
+[1.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm_description)
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/package.ps1'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/package.dsv'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/package.sh'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/package.bash'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/package.zsh'
+[1.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fins/myrobot_final/install/robot_arm_description/share/colcon-core/packages/robot_arm_description)
+[1.077s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/fins/myrobot_final/src/mybot' with build type 'ament_cmake'
+[1.078s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/fins/myrobot_final/src/mybot'
+[1.078s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/fins/myrobot_final/build/mybot': AMENT_PREFIX_PATH=/home/fins/myrobot_final/install/robot_arm_description:/home/fins/myrobot_final/install/mybot:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner_testutils:/home/fins/Workspace/moveit2_ws/install/moveit_runtime:/home/fins/Workspace/moveit2_ws/install/moveit2_tutorials:/home/fins/Workspace/moveit2_ws/install/moveit:/home/fins/Workspace/moveit2_ws/install/moveit_planners:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_visual_tools:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_demo:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_capabilities:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_core:/home/fins/Workspace/moveit2_ws/install/moveit_ros_control_interface:/home/fins/Workspace/moveit2_ws/install/moveit_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_simple_controller_manager:/home/fins/Workspace/moveit2_ws/install/moveit_setup_assistant:/home/fins/Workspace/moveit2_ws/install/moveit_setup_srdf_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_core_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_controllers:/home/fins/Workspace/moveit2_ws/install/moveit_setup_app_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_framework:/home/fins/Workspace/moveit2_ws/install/moveit_servo:/home/fins/Workspace/moveit2_ws/install/moveit_ros:/home/fins/Workspace/moveit2_ws/install/moveit_ros_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_hybrid_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning_interface:/home/fins/Workspace/moveit2_ws/install/moveit_ros_benchmarks:/home/fins/Workspace/moveit2_ws/install/moveit_ros_warehouse:/home/fins/Workspace/moveit2_ws/install/moveit_ros_robot_interaction:/home/fins/Workspace/moveit2_ws/install/moveit_ros_perception:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_pg70_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_ros_move_group:/home/fins/Workspace/moveit2_ws/install/moveit_planners_ompl:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_occupancy_map_monitor:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fins/Workspace/moveit2_ws/install/moveit_planners_chomp:/home/fins/Workspace/moveit2_ws/install/moveit_kinematics:/home/fins/Workspace/moveit2_ws/install/moveit_chomp_optimizer_adapter:/home/fins/Workspace/moveit2_ws/install/chomp_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_core:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/srdfdom:/home/fins/Workspace/moveit2_ws/install/rviz_marker_tools:/home/fins/Workspace/moveit2_ws/install/rosparam_shortcuts:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_msgs:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources:/home/fins/Workspace/moveit2_ws/install/moveit_resources_pr2_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_description:/home/fins/Workspace/moveit2_ws/install/moveit_common:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fins/myrobot_final/build/mybot -- -j32 -l32
+[9.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/fins/myrobot_final/build/mybot' returned '2': AMENT_PREFIX_PATH=/home/fins/myrobot_final/install/robot_arm_description:/home/fins/myrobot_final/install/mybot:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner_testutils:/home/fins/Workspace/moveit2_ws/install/moveit_runtime:/home/fins/Workspace/moveit2_ws/install/moveit2_tutorials:/home/fins/Workspace/moveit2_ws/install/moveit:/home/fins/Workspace/moveit2_ws/install/moveit_planners:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_visual_tools:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_demo:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_capabilities:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_core:/home/fins/Workspace/moveit2_ws/install/moveit_ros_control_interface:/home/fins/Workspace/moveit2_ws/install/moveit_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_simple_controller_manager:/home/fins/Workspace/moveit2_ws/install/moveit_setup_assistant:/home/fins/Workspace/moveit2_ws/install/moveit_setup_srdf_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_core_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_controllers:/home/fins/Workspace/moveit2_ws/install/moveit_setup_app_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_framework:/home/fins/Workspace/moveit2_ws/install/moveit_servo:/home/fins/Workspace/moveit2_ws/install/moveit_ros:/home/fins/Workspace/moveit2_ws/install/moveit_ros_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_hybrid_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning_interface:/home/fins/Workspace/moveit2_ws/install/moveit_ros_benchmarks:/home/fins/Workspace/moveit2_ws/install/moveit_ros_warehouse:/home/fins/Workspace/moveit2_ws/install/moveit_ros_robot_interaction:/home/fins/Workspace/moveit2_ws/install/moveit_ros_perception:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_pg70_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_ros_move_group:/home/fins/Workspace/moveit2_ws/install/moveit_planners_ompl:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_occupancy_map_monitor:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fins/Workspace/moveit2_ws/install/moveit_planners_chomp:/home/fins/Workspace/moveit2_ws/install/moveit_kinematics:/home/fins/Workspace/moveit2_ws/install/moveit_chomp_optimizer_adapter:/home/fins/Workspace/moveit2_ws/install/chomp_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_core:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/srdfdom:/home/fins/Workspace/moveit2_ws/install/rviz_marker_tools:/home/fins/Workspace/moveit2_ws/install/rosparam_shortcuts:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_msgs:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources:/home/fins/Workspace/moveit2_ws/install/moveit_resources_pr2_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_description:/home/fins/Workspace/moveit2_ws/install/moveit_common:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fins/myrobot_final/build/mybot -- -j32 -l32
+[9.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot)
+[9.900s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/mybot' for CMake module files
+[9.900s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/mybot' for CMake config files
+[9.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('mybot', 'cmake_prefix_path')
+[9.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/myrobot_final/install/mybot/share/mybot/hook/cmake_prefix_path.ps1'
+[9.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/fins/myrobot_final/install/mybot/share/mybot/hook/cmake_prefix_path.dsv'
+[9.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/fins/myrobot_final/install/mybot/share/mybot/hook/cmake_prefix_path.sh'
+[9.902s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/mybot/lib'
+[9.902s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/mybot/bin'
+[9.902s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/mybot/lib/pkgconfig/mybot.pc'
+[9.902s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/mybot/lib/python3.10/site-packages'
+[9.902s] Level 1:colcon.colcon_core.environment:checking '/home/fins/myrobot_final/install/mybot/bin'
+[9.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/myrobot_final/install/mybot/share/mybot/package.ps1'
+[9.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/fins/myrobot_final/install/mybot/share/mybot/package.dsv'
+[9.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/myrobot_final/install/mybot/share/mybot/package.sh'
+[9.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/myrobot_final/install/mybot/share/mybot/package.bash'
+[9.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/fins/myrobot_final/install/mybot/share/mybot/package.zsh'
+[9.904s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/fins/myrobot_final/install/mybot/share/colcon-core/packages/mybot)
+[9.914s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.914s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.914s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[9.914s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.921s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.921s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.921s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.931s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.931s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fins/myrobot_final/install/local_setup.ps1'
+[9.932s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fins/myrobot_final/install/_local_setup_util_ps1.py'
+[9.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fins/myrobot_final/install/setup.ps1'
+[9.934s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fins/myrobot_final/install/local_setup.sh'
+[9.935s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/fins/myrobot_final/install/_local_setup_util_sh.py'
+[9.935s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fins/myrobot_final/install/setup.sh'
+[9.937s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fins/myrobot_final/install/local_setup.bash'
+[9.938s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fins/myrobot_final/install/setup.bash'
+[9.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/fins/myrobot_final/install/local_setup.zsh'
+[9.941s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/fins/myrobot_final/install/setup.zsh'

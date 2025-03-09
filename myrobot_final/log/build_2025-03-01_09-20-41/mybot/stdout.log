@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target trajectory_buffer_node[0m
+[  5%] Built target end_effector_feedback
+[  5%] Built target set_target_pose
+[  8%] [32mBuilding CXX object CMakeFiles/execute.dir/src/arm_control.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/arm_execute_processing.dir/src/arm_control.cpp.o[0m
+[ 10%] Built target move_group_interface
+[ 15%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second.dir/src/arm_control.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/arm_execute_circle_trajectory.dir/src/arm_control.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory.dir/src/arm_control.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second_final.dir/src/arm_control.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/arm_execute_storage_trajectory.dir/src/arm_control.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/arm_execute_processing_trajectory.dir/src/arm_control.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_final.dir/src/arm_control.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/arm_execute_storage.dir/src/arm_control.cpp.o[0m
+[ 24%] Built target trajectory_buffer_node
+[ 26%] [32mBuilding CXX object CMakeFiles/arm_execute_node.dir/src/arm_control.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/arm_execute_circle.dir/src/arm_control.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/arm_execute_second_storage_trajectory.dir/src/arm_control.cpp.o[0m

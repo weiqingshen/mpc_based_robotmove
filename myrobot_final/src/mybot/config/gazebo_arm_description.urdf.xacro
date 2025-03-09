@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_arm_description">
+
+    <!--指定urdf位置 -->
+    <xacro:include filename="$(find robot_arm_description)/urdf/robot_arm_description.urdf" />
+
+    <!--对link进行gazebo的属性设置 -->
+    <gazebo reference="link1">
+        <material>Gazebo/Purple</material>
+        <self_collide>false</self_collide>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link2">
+        <material>Gazebo/Red</material>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link3">
+        <material>Gazebo/Blue</material>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link4">
+        <material>Gazebo/Green</material>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link5">
+        <material>Gazebo/Yellow</material>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link6">
+        <material>Gazebo/Orange</material>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link_hand">
+        <material>Gazebo/Orange</material>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link_left">
+        <material>Gazebo/Orange</material>
+        <gravity>false</gravity>
+    </gazebo>
+    <gazebo reference="link_right">
+        <material>Gazebo/Orange</material>
+        <gravity>false</gravity>
+    </gazebo>
+    <!--声明ros2_control-->
+    <ros2_control name="GazeboSystem" type="system">
+        <hardware>
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+        </hardware>
+        <joint name="joint1">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="joint2">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="joint3">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="joint4">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="joint5">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="joint6">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="joint_hand">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="joint_left">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+        <joint name="joint_right">
+            <command_interface name="position"/>
+            <state_interface name="position">
+                <param name="initial_value">0</param>
+            </state_interface>
+            <state_interface name="velocity"/>
+        </joint>
+    </ros2_control>
+
+    <!--加载ros2_control插件-->
+    <gazebo>
+        <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+            <parameters>$(find mybot)/config/ros2_controllers.yaml</parameters>
+            <robot_param>robot_description</robot_param>
+        </plugin>
+    </gazebo>
+
+</robot>
+

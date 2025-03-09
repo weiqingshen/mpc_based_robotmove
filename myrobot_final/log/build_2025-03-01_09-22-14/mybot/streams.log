@@ -1,0 +1,199 @@
+[0.010s] Invoking command in '/home/fins/myrobot_final/build/mybot': AMENT_PREFIX_PATH=/home/fins/myrobot_final/install/robot_arm_description:/home/fins/myrobot_final/install/mybot:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner_testutils:/home/fins/Workspace/moveit2_ws/install/moveit_runtime:/home/fins/Workspace/moveit2_ws/install/moveit2_tutorials:/home/fins/Workspace/moveit2_ws/install/moveit:/home/fins/Workspace/moveit2_ws/install/moveit_planners:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_visual_tools:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_demo:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_capabilities:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_core:/home/fins/Workspace/moveit2_ws/install/moveit_ros_control_interface:/home/fins/Workspace/moveit2_ws/install/moveit_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_simple_controller_manager:/home/fins/Workspace/moveit2_ws/install/moveit_setup_assistant:/home/fins/Workspace/moveit2_ws/install/moveit_setup_srdf_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_core_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_controllers:/home/fins/Workspace/moveit2_ws/install/moveit_setup_app_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_framework:/home/fins/Workspace/moveit2_ws/install/moveit_servo:/home/fins/Workspace/moveit2_ws/install/moveit_ros:/home/fins/Workspace/moveit2_ws/install/moveit_ros_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_hybrid_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning_interface:/home/fins/Workspace/moveit2_ws/install/moveit_ros_benchmarks:/home/fins/Workspace/moveit2_ws/install/moveit_ros_warehouse:/home/fins/Workspace/moveit2_ws/install/moveit_ros_robot_interaction:/home/fins/Workspace/moveit2_ws/install/moveit_ros_perception:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_pg70_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_ros_move_group:/home/fins/Workspace/moveit2_ws/install/moveit_planners_ompl:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_occupancy_map_monitor:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fins/Workspace/moveit2_ws/install/moveit_planners_chomp:/home/fins/Workspace/moveit2_ws/install/moveit_kinematics:/home/fins/Workspace/moveit2_ws/install/moveit_chomp_optimizer_adapter:/home/fins/Workspace/moveit2_ws/install/chomp_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_core:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/srdfdom:/home/fins/Workspace/moveit2_ws/install/rviz_marker_tools:/home/fins/Workspace/moveit2_ws/install/rosparam_shortcuts:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_msgs:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources:/home/fins/Workspace/moveit2_ws/install/moveit_resources_pr2_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_description:/home/fins/Workspace/moveit2_ws/install/moveit_common:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fins/myrobot_final/build/mybot -- -j32 -l32
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_storage[0m
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_processing[0m
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target execute[0m
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_circle_trajectory[0m
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_total_trajectory[0m
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_storage_trajectory[0m
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_total_trajectory_final[0m
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_circle[0m
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_total_trajectory_second_final[0m
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_processing_trajectory[0m
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_second_storage_trajectory[0m
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_node[0m
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target arm_execute_total_trajectory_second[0m
+[0.107s] [  2%] Built target trajectory_buffer_node
+[0.108s] [  5%] Built target set_target_pose
+[0.111s] [  8%] Built target end_effector_feedback
+[0.114s] [ 10%] Built target move_group_interface
+[0.125s] [ 13%] [32mBuilding CXX object CMakeFiles/execute.dir/src/arm_control.cpp.o[0m
+[0.125s] [ 13%] [32mBuilding CXX object CMakeFiles/arm_execute_processing.dir/src/arm_control.cpp.o[0m
+[0.126s] [ 15%] [32mBuilding CXX object CMakeFiles/arm_execute_storage.dir/src/arm_control.cpp.o[0m
+[0.127s] [ 17%] [32mBuilding CXX object CMakeFiles/arm_execute_circle_trajectory.dir/src/arm_control.cpp.o[0m
+[0.127s] [ 17%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory.dir/src/arm_control.cpp.o[0m
+[0.127s] [ 19%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_final.dir/src/arm_control.cpp.o[0m
+[0.128s] [ 20%] [32mBuilding CXX object CMakeFiles/arm_execute_node.dir/src/arm_control.cpp.o[0m
+[0.128s] [ 21%] [32mBuilding CXX object CMakeFiles/arm_execute_storage_trajectory.dir/src/arm_control.cpp.o[0m
+[0.128s] [ 24%] [32mBuilding CXX object CMakeFiles/arm_execute_circle.dir/src/arm_control.cpp.o[0m
+[0.129s] [ 24%] [32mBuilding CXX object CMakeFiles/arm_execute_second_storage_trajectory.dir/src/arm_control.cpp.o[0m
+[0.129s] [ 27%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second.dir/src/arm_control.cpp.o[0m
+[0.129s] [ 27%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second_final.dir/src/arm_control.cpp.o[0m
+[0.130s] [ 28%] [32mBuilding CXX object CMakeFiles/arm_execute_processing_trajectory.dir/src/arm_control.cpp.o[0m
+[9.693s] [ 30%] [32m[1mLinking CXX executable arm_execute_node[0m
+[9.771s] [ 31%] [32m[1mLinking CXX executable arm_execute_storage_trajectory[0m
+[9.843s] [ 32%] [32m[1mLinking CXX executable arm_execute_circle[0m
+[9.942s] [ 35%] [32m[1mLinking CXX executable arm_execute_storage[0m
+[9.942s] [ 35%] [32m[1mLinking CXX executable arm_execute_second_storage_trajectory[0m
+[9.968s] [ 36%] [32m[1mLinking CXX executable execute[0m
+[10.368s] [ 38%] [32m[1mLinking CXX executable arm_execute_processing[0m
+[10.412s] [ 39%] [32m[1mLinking CXX executable arm_execute_total_trajectory_second[0m
+[10.479s] [ 41%] [32m[1mLinking CXX executable arm_execute_total_trajectory[0m
+[10.491s] [ 42%] [32m[1mLinking CXX executable arm_execute_circle_trajectory[0m
+[10.522s] [ 43%] [32m[1mLinking CXX executable arm_execute_total_trajectory_second_final[0m
+[10.548s] [ 45%] [32m[1mLinking CXX executable arm_execute_processing_trajectory[0m
+[10.554s] [ 46%] [32m[1mLinking CXX executable arm_execute_total_trajectory_final[0m
+[11.869s] [ 50%] Built target arm_execute_node
+[11.919s] [ 54%] Built target arm_execute_storage_trajectory
+[11.923s] [ 63%] Built target arm_execute_storage
+[11.923s] [ 63%] Built target arm_execute_circle
+[12.077s] [ 67%] Built target arm_execute_second_storage_trajectory
+[12.088s] [ 71%] Built target execute
+[12.097s] [ 75%] Built target arm_execute_total_trajectory_second
+[12.124s] [ 79%] Built target arm_execute_total_trajectory_second_final
+[12.228s] [ 83%] Built target arm_execute_total_trajectory
+[12.325s] [ 87%] Built target arm_execute_processing
+[12.349s] [ 91%] Built target arm_execute_total_trajectory_final
+[12.357s] [ 95%] Built target arm_execute_processing_trajectory
+[12.371s] [100%] Built target arm_execute_circle_trajectory
+[12.383s] Invoked command in '/home/fins/myrobot_final/build/mybot' returned '0': AMENT_PREFIX_PATH=/home/fins/myrobot_final/install/robot_arm_description:/home/fins/myrobot_final/install/mybot:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner_testutils:/home/fins/Workspace/moveit2_ws/install/moveit_runtime:/home/fins/Workspace/moveit2_ws/install/moveit2_tutorials:/home/fins/Workspace/moveit2_ws/install/moveit:/home/fins/Workspace/moveit2_ws/install/moveit_planners:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_visual_tools:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_demo:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_capabilities:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_core:/home/fins/Workspace/moveit2_ws/install/moveit_ros_control_interface:/home/fins/Workspace/moveit2_ws/install/moveit_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_simple_controller_manager:/home/fins/Workspace/moveit2_ws/install/moveit_setup_assistant:/home/fins/Workspace/moveit2_ws/install/moveit_setup_srdf_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_core_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_controllers:/home/fins/Workspace/moveit2_ws/install/moveit_setup_app_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_framework:/home/fins/Workspace/moveit2_ws/install/moveit_servo:/home/fins/Workspace/moveit2_ws/install/moveit_ros:/home/fins/Workspace/moveit2_ws/install/moveit_ros_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_hybrid_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning_interface:/home/fins/Workspace/moveit2_ws/install/moveit_ros_benchmarks:/home/fins/Workspace/moveit2_ws/install/moveit_ros_warehouse:/home/fins/Workspace/moveit2_ws/install/moveit_ros_robot_interaction:/home/fins/Workspace/moveit2_ws/install/moveit_ros_perception:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_pg70_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_ros_move_group:/home/fins/Workspace/moveit2_ws/install/moveit_planners_ompl:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_occupancy_map_monitor:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fins/Workspace/moveit2_ws/install/moveit_planners_chomp:/home/fins/Workspace/moveit2_ws/install/moveit_kinematics:/home/fins/Workspace/moveit2_ws/install/moveit_chomp_optimizer_adapter:/home/fins/Workspace/moveit2_ws/install/chomp_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_core:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/srdfdom:/home/fins/Workspace/moveit2_ws/install/rviz_marker_tools:/home/fins/Workspace/moveit2_ws/install/rosparam_shortcuts:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_msgs:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources:/home/fins/Workspace/moveit2_ws/install/moveit_resources_pr2_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_description:/home/fins/Workspace/moveit2_ws/install/moveit_common:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/fins/myrobot_final/build/mybot -- -j32 -l32
+[12.537s] Invoking command in '/home/fins/myrobot_final/build/mybot': AMENT_PREFIX_PATH=/home/fins/myrobot_final/install/robot_arm_description:/home/fins/myrobot_final/install/mybot:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner_testutils:/home/fins/Workspace/moveit2_ws/install/moveit_runtime:/home/fins/Workspace/moveit2_ws/install/moveit2_tutorials:/home/fins/Workspace/moveit2_ws/install/moveit:/home/fins/Workspace/moveit2_ws/install/moveit_planners:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_visual_tools:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_demo:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_capabilities:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_core:/home/fins/Workspace/moveit2_ws/install/moveit_ros_control_interface:/home/fins/Workspace/moveit2_ws/install/moveit_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_simple_controller_manager:/home/fins/Workspace/moveit2_ws/install/moveit_setup_assistant:/home/fins/Workspace/moveit2_ws/install/moveit_setup_srdf_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_core_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_controllers:/home/fins/Workspace/moveit2_ws/install/moveit_setup_app_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_framework:/home/fins/Workspace/moveit2_ws/install/moveit_servo:/home/fins/Workspace/moveit2_ws/install/moveit_ros:/home/fins/Workspace/moveit2_ws/install/moveit_ros_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_hybrid_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning_interface:/home/fins/Workspace/moveit2_ws/install/moveit_ros_benchmarks:/home/fins/Workspace/moveit2_ws/install/moveit_ros_warehouse:/home/fins/Workspace/moveit2_ws/install/moveit_ros_robot_interaction:/home/fins/Workspace/moveit2_ws/install/moveit_ros_perception:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_pg70_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_ros_move_group:/home/fins/Workspace/moveit2_ws/install/moveit_planners_ompl:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_occupancy_map_monitor:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fins/Workspace/moveit2_ws/install/moveit_planners_chomp:/home/fins/Workspace/moveit2_ws/install/moveit_kinematics:/home/fins/Workspace/moveit2_ws/install/moveit_chomp_optimizer_adapter:/home/fins/Workspace/moveit2_ws/install/chomp_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_core:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/srdfdom:/home/fins/Workspace/moveit2_ws/install/rviz_marker_tools:/home/fins/Workspace/moveit2_ws/install/rosparam_shortcuts:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_msgs:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources:/home/fins/Workspace/moveit2_ws/install/moveit_resources_pr2_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_description:/home/fins/Workspace/moveit2_ws/install/moveit_common:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fins/myrobot_final/build/mybot
+[12.558s] -- Install configuration: ""
+[12.559s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/lib/mybot/move_group_interface
+[12.559s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/lib/mybot/end_effector_feedback
+[12.560s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/execute
+[12.564s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/execute" to ""
+[12.565s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/lib/mybot/set_target_pose
+[12.565s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_node
+[12.570s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_node" to ""
+[12.570s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/lib/mybot/trajectory_buffer_node
+[12.571s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_storage
+[12.575s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_storage" to ""
+[12.576s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_processing
+[12.580s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_processing" to ""
+[12.581s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_storage_trajectory
+[12.585s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_storage_trajectory" to ""
+[12.586s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_second_storage_trajectory
+[12.590s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_second_storage_trajectory" to ""
+[12.591s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_processing_trajectory
+[12.596s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_processing_trajectory" to ""
+[12.597s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_final
+[12.601s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_final" to ""
+[12.602s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_second
+[12.607s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_second" to ""
+[12.607s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_second_final
+[12.612s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory_second_final" to ""
+[12.612s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory
+[12.617s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_total_trajectory" to ""
+[12.617s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_circle_trajectory
+[12.622s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_circle_trajectory" to ""
+[12.623s] -- Installing: /home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_circle
+[12.627s] -- Set runtime path of "/home/fins/myrobot_final/install/mybot/lib/mybot/arm_execute_circle" to ""
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_storage.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_second_final_226备份.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_second.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/trajectory_buffer_2_28大改前.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_control_2_17.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/Communication.h
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_final_改动大小前226.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_control(修改相对路径前).cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/log
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/log/latest
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/log/latest_list
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/log/list_2024-08-30_14-37-32
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_second_storage_trajectory.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/trajectory_buffer_2.27号大改前.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/Trajectory.hpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_processing.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/Trajectory.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/execute.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_storage_trajectory.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/end_effector_feedback.cpp
+[12.628s] -- Installing: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_control.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/end_effector_feedback 成功.cpp
+[12.628s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_second_final.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/TrajectoryInterpolator.hpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/Communication.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_circle_trajectory.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_final_2_27有轨迹.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_processing_trajectory.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_storage(从地上抓起来放到车上).cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/move_group_interface.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/TrajectoryInterpolator.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/trajectory_buffer_gpt.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_final.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_调试用副本.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/.vscode
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_control修改相对路径前.h
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_control.h
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/trajectory_subscriber_node.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_circle(原来的版本).cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/set_target_pose.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_total_trajectory_second_final_备份.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/arm_execute_circle.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/src/trajectory_buffer.cpp
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle12.yaml
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/robot_arm_description.urdf.xacro
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing21.yaml
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/trajectory_5.yaml
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/planned_trajectory.txt
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/kinematics.yaml
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/robot_arm_description.srdf
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing32.yaml
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/initial_positions.yaml
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle31.yaml
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/planned_trajectory（复件）.txt
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/default_trajectory.yaml
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/trajectory_3.yaml
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/param_1.yaml
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/joint_limits.yaml
+[12.629s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle21.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing31.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/trajectory_4.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/param.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/moveit.rviz
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle32.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/gazebo_arm_description.urdf.xacro
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/moveit_controllers.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/planned_trajectory（另一个复件）.txt
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing22.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing12.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/processing11.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle22.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/robot_arm_description.ros2_control.xacro
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/ros2_controllers.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/circle11.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/config/pilz_cartesian_limits.yaml
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/my_moveit_rviz.launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/setup_assistant.launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/static_virtual_joint_tfs.launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/moveit_rviz.launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/warehouse_db.launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/move_group.launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/move_group_interface.launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/rsp.launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/gazebo.launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/spawn_controllers.launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/trajectory_subscriber_launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/launch/demo.launch.py
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/.setup_assistant
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/ament_index/resource_index/package_run_dependencies/mybot
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/ament_index/resource_index/parent_prefix_path/mybot
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/environment/ament_prefix_path.sh
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/environment/ament_prefix_path.dsv
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/environment/path.sh
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/environment/path.dsv
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/local_setup.bash
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/local_setup.sh
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/local_setup.zsh
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/local_setup.dsv
+[12.630s] -- Installing: /home/fins/myrobot_final/install/mybot/share/mybot/package.dsv
+[12.630s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/ament_index/resource_index/packages/mybot
+[12.631s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/cmake/mybotConfig.cmake
+[12.631s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/cmake/mybotConfig-version.cmake
+[12.631s] -- Up-to-date: /home/fins/myrobot_final/install/mybot/share/mybot/package.xml
+[12.633s] Invoked command in '/home/fins/myrobot_final/build/mybot' returned '0': AMENT_PREFIX_PATH=/home/fins/myrobot_final/install/robot_arm_description:/home/fins/myrobot_final/install/mybot:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner_testutils:/home/fins/Workspace/moveit2_ws/install/moveit_runtime:/home/fins/Workspace/moveit2_ws/install/moveit2_tutorials:/home/fins/Workspace/moveit2_ws/install/moveit:/home/fins/Workspace/moveit2_ws/install/moveit_planners:/home/fins/Workspace/moveit2_ws/install/pilz_industrial_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_visual_tools:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_demo:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_capabilities:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_core:/home/fins/Workspace/moveit2_ws/install/moveit_ros_control_interface:/home/fins/Workspace/moveit2_ws/install/moveit_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_simple_controller_manager:/home/fins/Workspace/moveit2_ws/install/moveit_setup_assistant:/home/fins/Workspace/moveit2_ws/install/moveit_setup_srdf_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_core_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_controllers:/home/fins/Workspace/moveit2_ws/install/moveit_setup_app_plugins:/home/fins/Workspace/moveit2_ws/install/moveit_setup_framework:/home/fins/Workspace/moveit2_ws/install/moveit_servo:/home/fins/Workspace/moveit2_ws/install/moveit_ros:/home/fins/Workspace/moveit2_ws/install/moveit_ros_visualization:/home/fins/Workspace/moveit2_ws/install/moveit_hybrid_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning_interface:/home/fins/Workspace/moveit2_ws/install/moveit_ros_benchmarks:/home/fins/Workspace/moveit2_ws/install/moveit_ros_warehouse:/home/fins/Workspace/moveit2_ws/install/moveit_ros_robot_interaction:/home/fins/Workspace/moveit2_ws/install/moveit_ros_perception:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_pg70_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_ros_move_group:/home/fins/Workspace/moveit2_ws/install/moveit_planners_ompl:/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning:/home/fins/Workspace/moveit2_ws/install/moveit_ros_occupancy_map_monitor:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/fins/Workspace/moveit2_ws/install/moveit_planners_chomp:/home/fins/Workspace/moveit2_ws/install/moveit_kinematics:/home/fins/Workspace/moveit2_ws/install/moveit_chomp_optimizer_adapter:/home/fins/Workspace/moveit2_ws/install/chomp_motion_planner:/home/fins/Workspace/moveit2_ws/install/moveit_core:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/srdfdom:/home/fins/Workspace/moveit2_ws/install/rviz_marker_tools:/home/fins/Workspace/moveit2_ws/install/rosparam_shortcuts:/home/fins/Workspace/moveit2_ws/install/moveit_task_constructor_msgs:/home/fins/Workspace/moveit2_ws/install/moveit_resources_prbt_support:/home/fins/Workspace/moveit2_ws/install/moveit_resources:/home/fins/Workspace/moveit2_ws/install/moveit_resources_pr2_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_panda_description:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_moveit_config:/home/fins/Workspace/moveit2_ws/install/moveit_resources_fanuc_description:/home/fins/Workspace/moveit2_ws/install/moveit_common:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/fins/myrobot_final/build/mybot

@@ -1,0 +1,27 @@
+[0.586s] Invoking command in '/home/fins/myrobot_final/src/robot_arm_description': PYTHONPATH=/home/fins/myrobot_final/build/robot_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fins/myrobot_final/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_description build --build-base /home/fins/myrobot_final/build/robot_arm_description/build install --record /home/fins/myrobot_final/build/robot_arm_description/install.log --single-version-externally-managed install_data
+[0.709s] running egg_info
+[0.715s] writing ../../build/robot_arm_description/robot_arm_description.egg-info/PKG-INFO
+[0.716s] writing dependency_links to ../../build/robot_arm_description/robot_arm_description.egg-info/dependency_links.txt
+[0.716s] writing requirements to ../../build/robot_arm_description/robot_arm_description.egg-info/requires.txt
+[0.716s] writing top-level names to ../../build/robot_arm_description/robot_arm_description.egg-info/top_level.txt
+[0.779s] reading manifest file '../../build/robot_arm_description/robot_arm_description.egg-info/SOURCES.txt'
+[0.780s] writing manifest file '../../build/robot_arm_description/robot_arm_description.egg-info/SOURCES.txt'
+[0.780s] running build
+[0.780s] running build_py
+[0.780s] running install
+[0.783s] running install_lib
+[0.790s] running install_data
+[0.790s] copying meshes/link4.STL -> /home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/meshes
+[0.791s] copying meshes/link_hand.STL -> /home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/meshes
+[0.792s] copying meshes/link6.STL -> /home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/meshes
+[0.793s] copying meshes/link3.STL -> /home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/meshes
+[0.793s] copying meshes/link5.STL -> /home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/meshes
+[0.794s] copying meshes/base_link.STL -> /home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/meshes
+[0.802s] copying meshes/link1.STL -> /home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/meshes
+[0.803s] copying meshes/link2.STL -> /home/fins/myrobot_final/install/robot_arm_description/share/robot_arm_description/meshes
+[0.803s] running install_egg_info
+[0.811s] removing '/home/fins/myrobot_final/install/robot_arm_description/lib/python3.10/site-packages/robot_arm_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.811s] Copying ../../build/robot_arm_description/robot_arm_description.egg-info to /home/fins/myrobot_final/install/robot_arm_description/lib/python3.10/site-packages/robot_arm_description-0.0.0-py3.10.egg-info
+[0.811s] running install_scripts
+[0.829s] writing list of installed files to '/home/fins/myrobot_final/build/robot_arm_description/install.log'
+[0.845s] Invoked command in '/home/fins/myrobot_final/src/robot_arm_description' returned '0': PYTHONPATH=/home/fins/myrobot_final/build/robot_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fins/myrobot_final/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_description build --build-base /home/fins/myrobot_final/build/robot_arm_description/build install --record /home/fins/myrobot_final/build/robot_arm_description/install.log --single-version-externally-managed install_data

@@ -1,0 +1,93 @@
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:[m[K In member function ‘[01m[Kvoid ManipulatorAction::graspAction_trajectory(Object&, TargetPose&, GraspPose&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/fins/myrobot_final/src/mybot/src/arm_control.cpp:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoveToPose[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveToPose[m[K’?
+  667 |         [01;31m[KoveToPose[m[K(target_initial_pose);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[KmoveToPose[m[K
+gmake[2]: *** [CMakeFiles/arm_execute_node.dir/build.make:90：CMakeFiles/arm_execute_node.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:559：CMakeFiles/arm_execute_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/arm_execute_total_trajectory.dir/build.make:90：CMakeFiles/arm_execute_total_trajectory.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:455：CMakeFiles/arm_execute_total_trajectory.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/arm_execute_total_trajectory_second_final.dir/build.make:90：CMakeFiles/arm_execute_total_trajectory_second_final.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:533：CMakeFiles/arm_execute_total_trajectory_second_final.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/arm_execute_storage.dir/build.make:90：CMakeFiles/arm_execute_storage.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:273：CMakeFiles/arm_execute_storage.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/arm_execute_circle.dir/build.make:90：CMakeFiles/arm_execute_circle.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:325：CMakeFiles/arm_execute_circle.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/execute.dir/build.make:90：CMakeFiles/execute.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:247：CMakeFiles/execute.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/arm_execute_total_trajectory_final.dir/build.make:90：CMakeFiles/arm_execute_total_trajectory_final.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:481：CMakeFiles/arm_execute_total_trajectory_final.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/arm_execute_total_trajectory_second.dir/build.make:90：CMakeFiles/arm_execute_total_trajectory_second.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:507：CMakeFiles/arm_execute_total_trajectory_second.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/arm_execute_processing.dir/build.make:90：CMakeFiles/arm_execute_processing.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:299：CMakeFiles/arm_execute_processing.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/arm_execute_second_storage_trajectory.dir/build.make:90：CMakeFiles/arm_execute_second_storage_trajectory.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:429：CMakeFiles/arm_execute_second_storage_trajectory.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/arm_execute_circle_trajectory.dir/build.make:90：CMakeFiles/arm_execute_circle_trajectory.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:351：CMakeFiles/arm_execute_circle_trajectory.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/arm_execute_storage_trajectory.dir/build.make:90：CMakeFiles/arm_execute_storage_trajectory.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:403：CMakeFiles/arm_execute_storage_trajectory.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/arm_execute_processing_trajectory.dir/build.make:90：CMakeFiles/arm_execute_processing_trajectory.dir/src/arm_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:377：CMakeFiles/arm_execute_processing_trajectory.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
