@@ -1,0 +1,48 @@
+[0.462s] Invoking command in '/home/fins/myrobot/src/robot_arm_description': PYTHONPATH=/home/fins/myrobot/build/robot_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_description build --build-base /home/fins/myrobot/build/robot_arm_description/build install --record /home/fins/myrobot/build/robot_arm_description/install.log --single-version-externally-managed install_data
+[0.590s] running egg_info
+[0.590s] creating ../../build/robot_arm_description/robot_arm_description.egg-info
+[0.596s] writing ../../build/robot_arm_description/robot_arm_description.egg-info/PKG-INFO
+[0.597s] writing dependency_links to ../../build/robot_arm_description/robot_arm_description.egg-info/dependency_links.txt
+[0.597s] writing requirements to ../../build/robot_arm_description/robot_arm_description.egg-info/requires.txt
+[0.597s] writing top-level names to ../../build/robot_arm_description/robot_arm_description.egg-info/top_level.txt
+[0.647s] writing manifest file '../../build/robot_arm_description/robot_arm_description.egg-info/SOURCES.txt'
+[0.661s] reading manifest file '../../build/robot_arm_description/robot_arm_description.egg-info/SOURCES.txt'
+[0.661s] writing manifest file '../../build/robot_arm_description/robot_arm_description.egg-info/SOURCES.txt'
+[0.661s] running build
+[0.661s] running build_py
+[0.661s] creating /home/fins/myrobot/build/robot_arm_description/build
+[0.661s] creating /home/fins/myrobot/build/robot_arm_description/build/lib
+[0.661s] creating /home/fins/myrobot/build/robot_arm_description/build/lib/robot_arm_description
+[0.661s] copying robot_arm_description/__init__.py -> /home/fins/myrobot/build/robot_arm_description/build/lib/robot_arm_description
+[0.662s] running install
+[0.664s] running install_lib
+[0.672s] creating /home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages/robot_arm_description
+[0.672s] copying /home/fins/myrobot/build/robot_arm_description/build/lib/robot_arm_description/__init__.py -> /home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages/robot_arm_description
+[0.672s] byte-compiling /home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages/robot_arm_description/__init__.py to __init__.cpython-310.pyc
+[0.672s] running install_data
+[0.672s] creating /home/fins/myrobot/install/robot_arm_description/share/ament_index
+[0.672s] creating /home/fins/myrobot/install/robot_arm_description/share/ament_index/resource_index
+[0.672s] creating /home/fins/myrobot/install/robot_arm_description/share/ament_index/resource_index/packages
+[0.672s] copying resource/robot_arm_description -> /home/fins/myrobot/install/robot_arm_description/share/ament_index/resource_index/packages
+[0.672s] copying package.xml -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description
+[0.673s] creating /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/launch
+[0.673s] creating /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/urdf
+[0.673s] copying urdf/robot_arm_description.urdf -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/urdf
+[0.673s] creating /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/rviz
+[0.673s] creating /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+[0.673s] copying meshes/link4.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+[0.673s] copying meshes/link_hand.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+[0.674s] copying meshes/link6.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+[0.675s] copying meshes/link_right.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+[0.675s] copying meshes/link3.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+[0.675s] copying meshes/link5.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+[0.675s] copying meshes/base_link.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+[0.682s] copying meshes/link1.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+[0.682s] copying meshes/link_left.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+[0.682s] copying meshes/link2.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+[0.682s] creating /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/worlds
+[0.683s] running install_egg_info
+[0.690s] Copying ../../build/robot_arm_description/robot_arm_description.egg-info to /home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages/robot_arm_description-0.0.0-py3.10.egg-info
+[0.691s] running install_scripts
+[0.709s] writing list of installed files to '/home/fins/myrobot/build/robot_arm_description/install.log'
+[0.726s] Invoked command in '/home/fins/myrobot/src/robot_arm_description' returned '0': PYTHONPATH=/home/fins/myrobot/build/robot_arm_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_arm_description build --build-base /home/fins/myrobot/build/robot_arm_description/build install --record /home/fins/myrobot/build/robot_arm_description/install.log --single-version-externally-managed install_data

@@ -1,0 +1,304 @@
+[0.010s] Invoking command in '/home/fins/myrobot/build/mybot': AMENT_PREFIX_PATH=/home/fins/myrobot/install/robot_arm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/fins/myrobot/src/mybot -DCMAKE_INSTALL_PREFIX=/home/fins/myrobot/install/mybot
+[0.099s] -- The C compiler identification is GNU 9.5.0
+[0.167s] -- The CXX compiler identification is GNU 9.5.0
+[0.175s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.248s] -- Check for working C compiler: /usr/bin/gcc - skipped
+[0.248s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.251s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.330s] -- Check for working CXX compiler: /usr/bin/g++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.331s] -- Detecting CXX compile features - done
+[0.340s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.579s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.705s] -- Found moveit_core: 2.5.5 (/home/fins/Workspace/moveit2_ws/install/moveit_core/share/moveit_core/cmake)
+[0.931s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.029s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.113s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.125s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.141s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.161s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.267s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.275s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.407s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.432s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.475s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.495s] -- Found Threads: TRUE  
+[1.563s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.569s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.600s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.747s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.820s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.108s] -- Found moveit_ros_planning_interface: 2.5.5 (/home/fins/Workspace/moveit2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[2.112s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.122s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.145s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.166s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.192s] -- Found moveit_visual_tools: 4.1.0 (/home/fins/Workspace/moveit2_ws/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[2.269s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[2.287s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.288s] -- Found OGRE
+[2.288s] --   static     : OFF
+[2.288s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.288s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.288s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.288s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.288s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.288s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.288s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.288s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.288s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.288s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.288s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.310s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.318s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.442s] -- Found X11: /usr/include   
+[2.442s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.514s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.514s] -- Looking for gethostbyname
+[2.581s] -- Looking for gethostbyname - found
+[2.581s] -- Looking for connect
+[2.652s] -- Looking for connect - found
+[2.652s] -- Looking for remove
+[2.721s] -- Looking for remove - found
+[2.721s] -- Looking for shmat
+[2.795s] -- Looking for shmat - found
+[2.795s] -- Looking for IceConnectionNumber in ICE
+[2.863s] -- Looking for IceConnectionNumber in ICE - found
+[3.216s] -- Configuring done
+[3.488s] -- Generating done
+[3.490s] -- Build files have been written to: /home/fins/myrobot/build/mybot
+[3.506s] Invoked command in '/home/fins/myrobot/build/mybot' returned '0': AMENT_PREFIX_PATH=/home/fins/myrobot/install/robot_arm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/fins/myrobot/src/mybot -DCMAKE_INSTALL_PREFIX=/home/fins/myrobot/install/mybot
+[3.508s] Invoking command in '/home/fins/myrobot/build/mybot': AMENT_PREFIX_PATH=/home/fins/myrobot/install/robot_arm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fins/myrobot/build/mybot -- -j32 -l32
+[3.581s] [  5%] [32mBuilding CXX object CMakeFiles/arm_execute_processing.dir/src/Trajectory.cpp.o[0m
+[3.582s] [ 20%] [32mBuilding CXX object CMakeFiles/arm_execute_storage_trajectory.dir/src/arm_control.cpp.o[0m
+[3.582s] [  5%] [32mBuilding CXX object CMakeFiles/arm_execute_circle_trajectory.dir/src/arm_control.cpp.o[0m
+[3.582s] [ 21%] [32mBuilding CXX object CMakeFiles/arm_execute_storage_trajectory.dir/src/arm_execute_storage_trajectory.cpp.o[0m
+[3.582s] [ 21%] [32mBuilding CXX object CMakeFiles/execute.dir/src/arm_control.cpp.o[0m
+[3.582s] [ 21%] [32mBuilding CXX object CMakeFiles/arm_execute_processing.dir/src/Communication.cpp.o[0m
+[3.582s] [ 21%] [32mBuilding CXX object CMakeFiles/execute.dir/src/execute.cpp.o[0m
+[3.583s] [ 21%] [32mBuilding CXX object CMakeFiles/arm_execute_storage.dir/src/arm_execute_storage.cpp.o[0m
+[3.583s] [ 21%] [32mBuilding CXX object CMakeFiles/execute.dir/src/Communication.cpp.o[0m
+[3.583s] [  5%] [32mBuilding CXX object CMakeFiles/set_target_pose.dir/src/set_target_pose.cpp.o[0m
+[3.583s] [ 21%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second_final.dir/src/arm_control.cpp.o[0m
+[3.583s] [ 21%] [32mBuilding CXX object CMakeFiles/arm_execute_processing.dir/src/arm_control.cpp.o[0m
+[3.583s] [ 26%] [32mBuilding CXX object CMakeFiles/arm_execute_storage_trajectory.dir/src/Communication.cpp.o[0m
+[3.583s] [ 26%] [32mBuilding CXX object CMakeFiles/move_group_interface.dir/src/move_group_interface.cpp.o[0m
+[3.583s] [ 28%] [32mBuilding CXX object CMakeFiles/arm_execute_circle_trajectory.dir/src/Communication.cpp.o[0m
+[3.583s] [ 31%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second.dir/src/arm_execute_total_trajectory_second.cpp.o[0m
+[3.583s] [ 21%] [32mBuilding CXX object CMakeFiles/end_effector_feedback.dir/src/end_effector_feedback.cpp.o[0m
+[3.583s] [ 21%] [32mBuilding CXX object CMakeFiles/arm_execute_circle_trajectory.dir/src/Trajectory.cpp.o[0m
+[3.583s] [ 21%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second_final.dir/src/arm_execute_total_trajectory_second_final.cpp.o[0m
+[3.584s] [ 32%] [32mBuilding CXX object CMakeFiles/arm_execute_processing.dir/src/arm_execute_processing.cpp.o[0m
+[3.584s] [ 32%] [32mBuilding CXX object CMakeFiles/arm_execute_storage_trajectory.dir/src/Trajectory.cpp.o[0m
+[3.585s] [ 32%] [32mBuilding CXX object CMakeFiles/arm_execute_second_storage_trajectory.dir/src/arm_execute_second_storage_trajectory.cpp.o[0m
+[3.586s] [ 36%] [32mBuilding CXX object CMakeFiles/arm_execute_processing_trajectory.dir/src/arm_execute_processing_trajectory.cpp.o[0m
+[3.586s] [ 36%] [32mBuilding CXX object CMakeFiles/execute.dir/src/Trajectory.cpp.o[0m
+[3.586s] [ 32%] [32mBuilding CXX object CMakeFiles/arm_execute_circle_trajectory.dir/src/arm_execute_circle_trajectory.cpp.o[0m
+[3.586s] [ 38%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second_final.dir/src/Communication.cpp.o[0m
+[3.586s] [ 36%] [32mBuilding CXX object CMakeFiles/arm_execute_circle.dir/src/arm_execute_circle.cpp.o[0m
+[3.586s] [ 36%] [32mBuilding CXX object CMakeFiles/trajectory_buffer_node.dir/src/trajectory_buffer.cpp.o[0m
+[3.586s] [ 41%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_final.dir/src/arm_execute_total_trajectory_final.cpp.o[0m
+[3.586s] [ 41%] [32mBuilding CXX object CMakeFiles/arm_execute_circle.dir/src/arm_control.cpp.o[0m
+[3.586s] [ 42%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory.dir/src/arm_execute_total_trajectory.cpp.o[0m
+[3.590s] [ 43%] [32mBuilding CXX object CMakeFiles/arm_execute_node.dir/src/arm_execute.cpp.o[0m
+[28.999s] [ 45%] [32m[1mLinking CXX executable move_group_interface[0m
+[30.304s] [ 45%] Built target move_group_interface
+[30.325s] [ 46%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second.dir/src/arm_control.cpp.o[0m
+[39.754s] [ 47%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory.dir/src/arm_control.cpp.o[0m
+[42.382s] [ 49%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory.dir/src/Communication.cpp.o[0m
+[44.207s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_execute_processing_trajectory.dir/src/arm_control.cpp.o[0m
+[50.677s] [ 52%] [32mBuilding CXX object CMakeFiles/arm_execute_second_storage_trajectory.dir/src/arm_control.cpp.o[0m
+[51.538s] [ 53%] [32mBuilding CXX object CMakeFiles/arm_execute_node.dir/src/arm_control.cpp.o[0m
+[56.863s] [ 54%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second.dir/src/Communication.cpp.o[0m
+[57.278s] [ 56%] [32mBuilding CXX object CMakeFiles/arm_execute_circle.dir/src/Communication.cpp.o[0m
+[57.686s] [ 57%] [32m[1mLinking CXX executable set_target_pose[0m
+[58.428s] [ 58%] [32mBuilding CXX object CMakeFiles/arm_execute_second_storage_trajectory.dir/src/Communication.cpp.o[0m
+[58.834s] [ 58%] Built target set_target_pose
+[58.860s] [ 60%] [32mBuilding CXX object CMakeFiles/arm_execute_second_storage_trajectory.dir/src/Trajectory.cpp.o[0m
+[59.091s] [ 61%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second_final.dir/src/Trajectory.cpp.o[0m
+[68.807s] [ 63%] [32mBuilding CXX object CMakeFiles/arm_execute_circle.dir/src/Trajectory.cpp.o[0m
+[69.075s] [ 64%] [32mBuilding CXX object CMakeFiles/arm_execute_processing_trajectory.dir/src/Communication.cpp.o[0m
+[69.485s] [ 65%] [32mBuilding CXX object CMakeFiles/arm_execute_node.dir/src/Communication.cpp.o[0m
+[70.620s] [ 67%] [32mBuilding CXX object CMakeFiles/arm_execute_processing_trajectory.dir/src/Trajectory.cpp.o[0m
+[71.359s] [ 68%] [32mBuilding CXX object CMakeFiles/arm_execute_node.dir/src/Trajectory.cpp.o[0m
+[71.724s] [ 69%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory.dir/src/Trajectory.cpp.o[0m
+[72.526s] [ 71%] [32mBuilding CXX object CMakeFiles/arm_execute_storage.dir/src/arm_control.cpp.o[0m
+[72.658s] [ 72%] [32mBuilding CXX object CMakeFiles/arm_execute_storage.dir/src/Communication.cpp.o[0m
+[73.381s] [ 73%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_final.dir/src/arm_control.cpp.o[0m
+[73.653s] [ 75%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_final.dir/src/Communication.cpp.o[0m
+[77.076s] [ 76%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_final.dir/src/Trajectory.cpp.o[0m
+[77.592s] [ 78%] [32mBuilding CXX object CMakeFiles/arm_execute_storage.dir/src/Trajectory.cpp.o[0m
+[77.923s] [ 79%] [32mBuilding CXX object CMakeFiles/arm_execute_total_trajectory_second.dir/src/Trajectory.cpp.o[0m
+[79.896s] [ 80%] [32m[1mLinking CXX executable arm_execute_second_storage_trajectory[0m
+[88.273s] [ 80%] Built target arm_execute_second_storage_trajectory
+[90.532s] [ 82%] [32m[1mLinking CXX executable arm_execute_processing_trajectory[0m
+[91.323s] [ 83%] [32m[1mLinking CXX executable arm_execute_total_trajectory[0m
+[92.146s] [ 84%] [32m[1mLinking CXX executable arm_execute_node[0m
+[92.269s] [ 86%] [32m[1mLinking CXX executable end_effector_feedback[0m
+[92.275s] [ 86%] Built target arm_execute_processing_trajectory
+[92.945s] [ 86%] Built target end_effector_feedback
+[93.099s] [ 86%] Built target arm_execute_total_trajectory
+[93.453s] [ 86%] Built target arm_execute_node
+[94.630s] [ 87%] [32m[1mLinking CXX executable arm_execute_storage[0m
+[94.817s] [ 89%] [32m[1mLinking CXX executable arm_execute_total_trajectory_second[0m
+[95.146s] [ 90%] [32m[1mLinking CXX executable arm_execute_circle[0m
+[95.709s] [ 90%] Built target arm_execute_storage
+[95.959s] [ 90%] Built target arm_execute_total_trajectory_second
+[96.251s] [ 90%] Built target arm_execute_circle
+[97.835s] [ 91%] [32m[1mLinking CXX executable arm_execute_storage_trajectory[0m
+[98.552s] [ 93%] [32m[1mLinking CXX executable arm_execute_circle_trajectory[0m
+[98.642s] [ 94%] [32m[1mLinking CXX executable arm_execute_total_trajectory_second_final[0m
+[98.742s] [ 95%] [32m[1mLinking CXX executable arm_execute_processing[0m
+[98.742s] [ 95%] Built target arm_execute_storage_trajectory
+[99.146s] [ 97%] [32m[1mLinking CXX executable arm_execute_total_trajectory_final[0m
+[99.166s] [ 98%] [32m[1mLinking CXX executable execute[0m
+[99.398s] [100%] [32m[1mLinking CXX executable trajectory_buffer_node[0m
+[99.433s] [100%] Built target arm_execute_circle_trajectory
+[99.544s] [100%] Built target arm_execute_total_trajectory_second_final
+[99.599s] [100%] Built target arm_execute_processing
+[99.937s] [100%] Built target arm_execute_total_trajectory_final
+[99.960s] [100%] Built target execute
+[100.034s] [100%] Built target trajectory_buffer_node
+[100.091s] Invoked command in '/home/fins/myrobot/build/mybot' returned '0': AMENT_PREFIX_PATH=/home/fins/myrobot/install/robot_arm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fins/myrobot/build/mybot -- -j32 -l32
+[100.282s] Invoking command in '/home/fins/myrobot/build/mybot': AMENT_PREFIX_PATH=/home/fins/myrobot/install/robot_arm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fins/myrobot/build/mybot
+[100.290s] -- Install configuration: ""
+[100.291s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/move_group_interface
+[100.296s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/move_group_interface" to ""
+[100.296s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/end_effector_feedback
+[100.296s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/end_effector_feedback" to ""
+[100.296s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/execute
+[100.300s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/execute" to ""
+[100.300s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/set_target_pose
+[100.301s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/set_target_pose" to ""
+[100.301s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_node
+[100.306s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_node" to ""
+[100.306s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/trajectory_buffer_node
+[100.310s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/trajectory_buffer_node" to ""
+[100.310s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_storage
+[100.314s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_storage" to ""
+[100.314s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_processing
+[100.318s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_processing" to ""
+[100.318s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_storage_trajectory
+[100.322s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_storage_trajectory" to ""
+[100.322s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_second_storage_trajectory
+[100.326s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_second_storage_trajectory" to ""
+[100.326s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_processing_trajectory
+[100.330s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_processing_trajectory" to ""
+[100.331s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_total_trajectory_final
+[100.336s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_total_trajectory_final" to ""
+[100.336s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_total_trajectory_second
+[100.342s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_total_trajectory_second" to ""
+[100.342s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_total_trajectory_second_final
+[100.346s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_total_trajectory_second_final" to ""
+[100.346s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_total_trajectory
+[100.350s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_total_trajectory" to ""
+[100.350s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_circle_trajectory
+[100.355s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_circle_trajectory" to ""
+[100.355s] -- Installing: /home/fins/myrobot/install/mybot/lib/mybot/arm_execute_circle
+[100.359s] -- Set runtime path of "/home/fins/myrobot/install/mybot/lib/mybot/arm_execute_circle" to ""
+[100.359s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src
+[100.360s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_total_trajectory.cpp
+[100.360s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_storage.cpp
+[100.360s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_total_trajectory_second.cpp
+[100.360s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_control_2_17.cpp
+[100.361s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/Communication.h
+[100.361s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_control(修改相对路径前).cpp
+[100.361s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/log
+[100.361s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/log/latest
+[100.361s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/log/latest_list
+[100.361s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/log/list_2024-08-30_14-37-32
+[100.362s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_second_storage_trajectory.cpp
+[100.362s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/Trajectory.hpp
+[100.362s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_processing.cpp
+[100.362s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/Trajectory.cpp
+[100.362s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/execute.cpp
+[100.362s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute.cpp
+[100.362s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_storage_trajectory.cpp
+[100.363s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/end_effector_feedback.cpp
+[100.363s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_control.cpp
+[100.363s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/end_effector_feedback 成功.cpp
+[100.363s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_total_trajectory_second_final.cpp
+[100.363s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/TrajectoryInterpolator.hpp
+[100.363s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/Communication.cpp
+[100.364s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_circle_trajectory.cpp
+[100.364s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_processing_trajectory.cpp
+[100.364s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_storage(从地上抓起来放到车上).cpp
+[100.364s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/move_group_interface.cpp
+[100.364s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/TrajectoryInterpolator.cpp
+[100.364s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_total_trajectory_final.cpp
+[100.365s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_total_trajectory_调试用副本.cpp
+[100.365s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/.vscode
+[100.365s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_control修改相对路径前.h
+[100.365s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_control.h
+[100.365s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/trajectory_subscriber_node.cpp
+[100.365s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_circle(原来的版本).cpp
+[100.366s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/set_target_pose.cpp
+[100.366s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/arm_execute_circle.cpp
+[100.366s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/src/trajectory_buffer.cpp
+[100.366s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config
+[100.366s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/circle12.yaml
+[100.367s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/robot_arm_description.urdf.xacro
+[100.367s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/processing21.yaml
+[100.367s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/trajectory_5.yaml
+[100.367s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/planned_trajectory.txt
+[100.377s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/kinematics.yaml
+[100.378s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/robot_arm_description.srdf
+[100.378s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/processing32.yaml
+[100.378s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/initial_positions.yaml
+[100.378s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/circle31.yaml
+[100.378s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/planned_trajectory（复件）.txt
+[100.379s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/default_trajectory.yaml
+[100.379s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/trajectory_3.yaml
+[100.379s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/param_1.yaml
+[100.379s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/joint_limits.yaml
+[100.379s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/circle21.yaml
+[100.379s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/processing31.yaml
+[100.380s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/trajectory_4.yaml
+[100.380s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/param.yaml
+[100.380s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/moveit.rviz
+[100.380s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/circle32.yaml
+[100.380s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/gazebo_arm_description.urdf.xacro
+[100.380s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/moveit_controllers.yaml
+[100.380s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/planned_trajectory（另一个复件）.txt
+[100.381s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/processing22.yaml
+[100.381s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/processing12.yaml
+[100.381s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/processing11.yaml
+[100.381s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/circle22.yaml
+[100.381s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/robot_arm_description.ros2_control.xacro
+[100.381s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/ros2_controllers.yaml
+[100.381s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/circle11.yaml
+[100.382s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/config/pilz_cartesian_limits.yaml
+[100.382s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch
+[100.382s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/my_moveit_rviz.launch.py
+[100.382s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/setup_assistant.launch.py
+[100.382s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/static_virtual_joint_tfs.launch.py
+[100.382s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/moveit_rviz.launch.py
+[100.383s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/warehouse_db.launch.py
+[100.383s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/move_group.launch.py
+[100.383s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/move_group_interface.launch.py
+[100.383s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/rsp.launch.py
+[100.383s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/gazebo.launch.py
+[100.383s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/spawn_controllers.launch.py
+[100.383s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/trajectory_subscriber_launch.py
+[100.383s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/launch/demo.launch.py
+[100.384s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/.setup_assistant
+[100.384s] -- Installing: /home/fins/myrobot/install/mybot/share/ament_index/resource_index/package_run_dependencies/mybot
+[100.385s] -- Installing: /home/fins/myrobot/install/mybot/share/ament_index/resource_index/parent_prefix_path/mybot
+[100.385s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/environment/ament_prefix_path.sh
+[100.385s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/environment/ament_prefix_path.dsv
+[100.385s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/environment/path.sh
+[100.385s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/environment/path.dsv
+[100.386s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/local_setup.bash
+[100.386s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/local_setup.sh
+[100.386s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/local_setup.zsh
+[100.386s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/local_setup.dsv
+[100.386s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/package.dsv
+[100.386s] -- Installing: /home/fins/myrobot/install/mybot/share/ament_index/resource_index/packages/mybot
+[100.387s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/cmake/mybotConfig.cmake
+[100.387s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/cmake/mybotConfig-version.cmake
+[100.387s] -- Installing: /home/fins/myrobot/install/mybot/share/mybot/package.xml
+[100.401s] Invoked command in '/home/fins/myrobot/build/mybot' returned '0': AMENT_PREFIX_PATH=/home/fins/myrobot/install/robot_arm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fins/myrobot_final/install/robot_arm_description:/home/fins/Workspace/moveit2_ws/install/moveit_configs_utils:/home/fins/Workspace/moveit2_ws/install/launch_param_builder:/opt/ros/humble PYTHONPATH=/home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fins/myrobot/build/mybot

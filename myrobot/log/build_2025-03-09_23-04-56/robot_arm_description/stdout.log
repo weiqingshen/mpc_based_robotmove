@@ -1,0 +1,46 @@
+running egg_info
+creating ../../build/robot_arm_description/robot_arm_description.egg-info
+writing ../../build/robot_arm_description/robot_arm_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_arm_description/robot_arm_description.egg-info/dependency_links.txt
+writing requirements to ../../build/robot_arm_description/robot_arm_description.egg-info/requires.txt
+writing top-level names to ../../build/robot_arm_description/robot_arm_description.egg-info/top_level.txt
+writing manifest file '../../build/robot_arm_description/robot_arm_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_arm_description/robot_arm_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_arm_description/robot_arm_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fins/myrobot/build/robot_arm_description/build
+creating /home/fins/myrobot/build/robot_arm_description/build/lib
+creating /home/fins/myrobot/build/robot_arm_description/build/lib/robot_arm_description
+copying robot_arm_description/__init__.py -> /home/fins/myrobot/build/robot_arm_description/build/lib/robot_arm_description
+running install
+running install_lib
+creating /home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages/robot_arm_description
+copying /home/fins/myrobot/build/robot_arm_description/build/lib/robot_arm_description/__init__.py -> /home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages/robot_arm_description
+byte-compiling /home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages/robot_arm_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/fins/myrobot/install/robot_arm_description/share/ament_index
+creating /home/fins/myrobot/install/robot_arm_description/share/ament_index/resource_index
+creating /home/fins/myrobot/install/robot_arm_description/share/ament_index/resource_index/packages
+copying resource/robot_arm_description -> /home/fins/myrobot/install/robot_arm_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description
+creating /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/launch
+creating /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/urdf
+copying urdf/robot_arm_description.urdf -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/urdf
+creating /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/rviz
+creating /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+copying meshes/link4.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+copying meshes/link_hand.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+copying meshes/link6.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+copying meshes/link_right.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+copying meshes/link3.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+copying meshes/link5.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+copying meshes/base_link.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+copying meshes/link1.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+copying meshes/link_left.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+copying meshes/link2.STL -> /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/meshes
+creating /home/fins/myrobot/install/robot_arm_description/share/robot_arm_description/worlds
+running install_egg_info
+Copying ../../build/robot_arm_description/robot_arm_description.egg-info to /home/fins/myrobot/install/robot_arm_description/lib/python3.10/site-packages/robot_arm_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/fins/myrobot/build/robot_arm_description/install.log'

@@ -1,0 +1,63 @@
+poses:
+  # 目标位姿1
+  place_pose1:
+    position:
+      x: 0.0
+      y: 0.12
+      z: 0.55
+    orientation:
+      qx: 0.0
+      qy: 1.0
+      qz: 0.0
+      qw: 0.0
+
+  place_pose2:
+    position:
+      x: 0.12
+      y: -0.18
+      z: 0.5
+    orientation:
+      qx: 0.0
+      qy: 1.0
+      qz: 0.0
+      qw: 0.0
+
+  place_pose3:
+    position:
+      x: -0.12
+      y: -0.18
+      z: 0.5
+    orientation:
+      qx: 0.0
+      qy: 1.0
+      qz: 0.0
+      qw: 0.0
+
+obstacles:
+  # 圆柱体障碍物
+  cylinder1:
+    type: cylinder
+    dimensions:
+      radius: 0.025  # 半径
+      height: 0.075  # 高度
+  cylinder2:
+    type: cylinder
+    dimensions:
+      radius: 0.025  # 半径
+      height: 0.075  # 高度
+  cylinder3:
+    type: cylinder
+    dimensions:
+      radius: 0.022  # 半径
+      height: 0.075  # 高度
+grasp_poses:
+  grasp1:
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 0.22
+    orientation:
+      qx: 0.0
+      qy: 1.0
+      qz: 0.0
+      qw: 0.0

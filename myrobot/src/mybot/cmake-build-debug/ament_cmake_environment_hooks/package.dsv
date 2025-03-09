@@ -1,0 +1,4 @@
+source;share/mybot/local_setup.bash
+source;share/mybot/local_setup.dsv
+source;share/mybot/local_setup.sh
+source;share/mybot/local_setup.zsh

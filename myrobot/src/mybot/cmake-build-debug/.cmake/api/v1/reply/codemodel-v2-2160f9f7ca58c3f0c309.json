@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-282f84cdbbe1de06e014.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mybot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_circle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_circle-Debug-19c1a16042483fc7bbd1.json",
+					"name" : "arm_execute_circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_circle_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_circle_trajectory-Debug-133117d07fae1148ce11.json",
+					"name" : "arm_execute_circle_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_node-Debug-c16eaacd5c64c1437f9b.json",
+					"name" : "arm_execute_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_processing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_processing-Debug-8f5fcc07a6b241eafabe.json",
+					"name" : "arm_execute_processing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_processing_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_processing_trajectory-Debug-e962630bbfdade59e365.json",
+					"name" : "arm_execute_processing_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_second_storage_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_second_storage_trajectory-Debug-109abe3ec331ac835a8f.json",
+					"name" : "arm_execute_second_storage_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_storage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_storage-Debug-2e1956bea7cf2835448b.json",
+					"name" : "arm_execute_storage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_storage_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_storage_trajectory-Debug-1538cd23cd8b8bf95b06.json",
+					"name" : "arm_execute_storage_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_total_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_total_trajectory-Debug-57a93f93598535b14098.json",
+					"name" : "arm_execute_total_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_total_trajectory_final::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_total_trajectory_final-Debug-c4b89bb8a840d8e04c07.json",
+					"name" : "arm_execute_total_trajectory_final",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_total_trajectory_second::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_total_trajectory_second-Debug-c6c1609bad29652b555e.json",
+					"name" : "arm_execute_total_trajectory_second",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_execute_total_trajectory_second_final::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_execute_total_trajectory_second_final-Debug-d945ff1399336c5efeb2.json",
+					"name" : "arm_execute_total_trajectory_second_final",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "end_effector_feedback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-end_effector_feedback-Debug-536a465ba9959141d726.json",
+					"name" : "end_effector_feedback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "execute::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-execute-Debug-99dca1a9f24976374d31.json",
+					"name" : "execute",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_group_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_group_interface-Debug-a0854e0a88479dcd8d40.json",
+					"name" : "move_group_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mybot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mybot_uninstall-Debug-a37dbd5079cbc335af91.json",
+					"name" : "mybot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "set_target_pose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-set_target_pose-Debug-997e08e0ebb0716b4883.json",
+					"name" : "set_target_pose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_buffer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_buffer_node-Debug-c6df8b5f9bded9f4d93c.json",
+					"name" : "trajectory_buffer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-03ef3f88a568240cf89d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/fins/myrobot/src/mybot/cmake-build-debug",
+		"source" : "/home/fins/myrobot/src/mybot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
